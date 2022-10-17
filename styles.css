@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+:root{
+    --color-primary:#8789ff;
+    --color-secondary:#AAC4FF;
+    --color-accent: #FFE887;
+    --color-white: white;
+    --color-offwhite:#EEF1FF;
+}
+
+body{
+    margin: 0px;
+    font-family: 'Inter', sans-serif;
+}
+
+.navigation {
+    background-color: var(--color-primary);
+    color: var(--color-offwhite);
+    padding: 1.2rem 1.5rem;
+    margin-bottom: 1rem;
+    
+    
+    /**box-shadow: none|h-offset v-offset blur spread color |inset|initial|inherit;**/
+
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.brand{
+    display: inline;
+    text-align: left;
+}
+
+
+.nav-pills{
+    float: right;
+}
+
+.active-nav-pills{
+    font-weight: 600;
+}
+.list-no-bullets{
+    display: inline;
+   list-style : none;
+}
+
+.list-item-inline{
+    display: inline;
+    text-align: right;
+    padding: 0rem .7rem;
+}
+
+footer{
+    background-color: var(--color-primary);
+    color: var(--color-offwhite);
+    margin-top: 2rem;
+    padding: 3rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px -3px 6px, rgba(0, 0, 0, 0.23) 0px -3px 6px;
+}
+
+.nav-socials{ 
+    margin-top: 0px;
+    padding-top: 1rem;
+}
+
+.hero{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.img-hero{
+    max-width: 500px;
+    display: block;
+    margin: auto;
+}
+
+.heading-hero{
+    font-weight: bold;
+    color: rgb(22, 21, 21);
+}
+.text-primary{
+    color: var(--color-primary);
+}
+
+.card-section{
+    background-color: var(--color-offwhite);
+    border-radius: .5rem;
+    margin: 1rem auto;
+    padding: 1rem;
+    width: 90%;
+    max-width: 700px;
+    text-align: center;
+
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+
+}
+
+
+.link{
+    text-decoration: none;
+    padding: .5rem 1rem;
+    border-radius: 1rem;
+}
+
+li .link{
+    color: var(--color-offwhite);
+}
+
+.link-primary{
+    background-color: var(--color-primary);
+    color: var(--color-white);
+}
+
+.link-secondary{
+    color: var(--color-primary);
+    border-radius: 1rem ;
+    border: 1px solid var(--color-primary);
+}
+
+.footer{
+    margin: auto;
+    text-align: center;
+}
+
+.footer img{
+    padding: 1rem;
+}
+
+
