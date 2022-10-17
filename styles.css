@@ -17,7 +17,7 @@ body{
 .navigation {
     background-color: var(--color-primary);
     color: var(--color-offwhite);
-    padding: 1.2rem 1.5rem;
+    padding: 1.5rem 1rem;
     margin-bottom: 1rem;
     
     
@@ -47,7 +47,7 @@ body{
 .list-item-inline{
     display: inline;
     text-align: right;
-    padding: 0rem .7rem;
+    padding: 0rem .5rem;
 }
 
 footer{
