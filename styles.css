@@ -68,6 +68,7 @@ footer{
     margin-bottom: 2rem;
 }
 .img-hero{
+    width: 90%;
     max-width: 500px;
     display: block;
     margin: auto;
