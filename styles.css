@@ -126,4 +126,25 @@ li .link{
     padding: 1rem;
 }
 
+.card-project{
+    background-color: var(--color-offwhite);
+    border-radius: .5rem;
+    margin: 1rem auto;
+    padding: 1rem;
+    width: 90%;
+    max-width: 700px;
+    text-align: center;
+
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.card-project h2{
+    margin-bottom: .2rem;
+}
+
+.card-project p{
+    margin-top: 0rem;
+    margin-bottom: 1.5rem;
+}
+
 
