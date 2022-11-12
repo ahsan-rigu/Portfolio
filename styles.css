@@ -27,11 +27,11 @@ body{
     position: sticky;
     top: 0px;
     box-shadow: black 0rem 1rem 1rem;
-    z-index: 1;
+    z-index: 2;
 
 }
 
-header .container{
+.top-bar .container{
     margin: auto;
     height: 5rem;
     max-width: 60rem;
@@ -199,9 +199,9 @@ header .container{
 
 .button-secondary{
     padding: .2rem .5rem;
-    color: var(--color-secondary);
+    color: var(--color-white);
     font-weight: 100;
-    border: .1rem solid var(--color-secondary);
+    border: .1rem solid var(--color-white);
     background-color: var(--color-background);
     border-radius: .2rem;
     font-family: 'Inter', sans-serif;
@@ -209,35 +209,182 @@ header .container{
     cursor: pointer;
 }
 
+.button-secondary:hover{
+    color: var(--color-secondary);
+    border-color: var(--color-secondary);
+}
+
 h2{
     text-align: center;
     padding: 1rem;
 }
 
+.projects-heading{
+    background-color: var(--color-background);
+    color: var(--color-white);
+    border-radius: .5rem;
+    padding: 1rem 3rem;
+    margin: 2rem auto;
+    text-align: left;
+    box-shadow: black 0rem 1rem 1rem;
+    position: sticky;
+    top: 5rem;
+    z-index: 1;
+}
+
+.projects-heading .view-more
+{   
+    float: right;
+    font-weight: 100;
+}
+
+.projects-heading .view-more:hover
+{   
+    color: var(--color-secondary);
+    cursor: pointer;
+}
+
 
 .project-overview{
-    width: 90%;
     max-width: 55rem;
     margin: auto;
     text-align: center;
 }
 
-.project-overview h2{
-    color: var(--color-secondary);
-    margin: 0rem;
-    box-shadow: var(--color-secondary) 0rem 0rem .5rem;
-    position: sticky;
-    top: 7rem;
-    background-color: var(--color-background);
+.javascript-projects{
+    padding-bottom: 2rem;
+}
+
+
+
+
+.project-card{
+    margin: 5rem auto;
+}
+
+
+
+
+.project-card-body{
+    width: 28rem;
+    height: 15.75rem;
+    margin: auto;
+    padding: 1rem;
+
+    text-align: center;
+    
+
+    border-radius: .5rem;
+    border: .1rem solid var(--color-white);
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 4px 16px, rgba(255, 255, 255, 0.1) 0px 8px 24px, rgba(255, 255, 255, 0.1) 0px 16px 56px;
+
+}
+
+.project-card-body:hover{
+    border-color: var(--color-secondary);
+    box-shadow: rgba(0, 221, 255, 0.1) 0px 4px 16px, rgba(0, 221, 255, 0.1) 0px 8px 24px, rgba(0, 208, 255, 0.1) 0px 16px 56px;
+}
+
+.project-card-buttons{
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+
+.project-card-buttons .button{
+    text-decoration: none;
+
+    display: inline-block;
+
+    position: relative;
+    bottom: 1.5rem;
+    text-align: center;
+    
+    border-radius: .5rem;
+    margin: 0rem 1.5rem;
+    height: 1.5rem;
+    width: 10rem;
+    font-weight: 400;
+    padding: .5rem;
+    padding-top: .6rem;
+}
+.button-primary{
+    padding: .2rem .5rem;
+    color: var(--color-background);
+    font-weight: 100;
+    border: .1rem solid var(--color-white);
+    background-color: var(--color-white);
+    border-radius: .2rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: medium;
+    cursor: pointer;
+    
+}
+
+.button-primary:hover{
+    background-color: var(--color-secondary);
+    border: .1rem solid var(--color-secondary);
+    box-shadow: rgba(0, 221, 255, 0.1) 0px 4px 16px, rgba(0, 221, 255, 0.1) 0px 8px 24px, rgba(0, 208, 255, 0.1) 0px 16px 56px;
+
 }
 
 .blogs-card{
+    margin: 5rem auto;
     display: inline-block;
-    border: .2rem solid white;
-    width: 35%;
-    height: 15rem;
-    margin: 1rem;
+}
 
+.blogs-card-body{
+    width: 28rem;
+    height: 15.75rem;
+    margin: auto;
+    padding: 1rem;
+
+    text-align: center;
+    
+
+    border-radius: .5rem;
+    border: .1rem solid var(--color-white);
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 4px 16px, rgba(255, 255, 255, 0.1) 0px 8px 24px, rgba(255, 255, 255, 0.1) 0px 16px 56px;
+
+
+}
+
+.blogs-card-body:hover{
+    border-color: var(--color-secondary);
+    box-shadow: rgba(0, 221, 255, 0.1) 0px 4px 16px, rgba(0, 221, 255, 0.1) 0px 8px 24px, rgba(0, 208, 255, 0.1) 0px 16px 56px;
+}
+
+.blogs-card-buttons{
+    display: block;
+    margin: auto;
+    text-align: right;
+}
+
+
+
+.blogs-card-buttons .button{
+    text-decoration: none;
+
+    display: inline-block;
+
+    position: relative;
+    bottom: 2.8rem;
+    text-align: center;
+
+
+    border: .1rem solid var(--color-white);
+    
+    border-radius: .5rem;
+    height: 1.5rem;
+    font-weight: 400;
+    width: 8rem;
+    padding: .5rem;
+    padding-top: .6rem;
+}
+.blogs-card-buttons .button:hover{
+    border-color:var(--color-secondary);
 }
 
 

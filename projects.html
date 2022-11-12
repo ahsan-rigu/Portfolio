@@ -8,105 +8,200 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav class="navigation container">
-        <span class="brand">Ahsan Rigu | portfolio</span>
-        <span class="nav-pills">
-            <ul class="list-no-bullets">
-                <li class="list-item-inline"><a class = "link"  href="index.html">home</a></li>
-                <li class="list-item-inline active-nav-pills"><a class = "link"  href="projects.html">projects</a></li>
-                <li class="list-item-inline"><a  class = "link" href="blogs.html ">blogs</a></li>
-            </ul>
-        </span>    
-    </nav>
-    <header class = "hero">
-        <h1 class="heading-hero">Ahsan Rigu | <span class="text-primary">Projects</span></h1>
-        <p class="text-hero"></p>
+    <header class="top-bar container">
+        <div class="container">
+            <span class="brand button">ahsan rigu | portfolio</span>
+            <span class="social-list">
+                <ul class="list-no-bullets">
+                    <li class="socials list-item-inline">
+                        <a href="https://twitter.com/ahsan_coding">
+                            <img src="Assets/twitter-logo.png" alt="twitter" >
+                        </a>
+                    </li>
+                    <li class="socials list-item-inline">
+                        <a href="https://www.linkedin.com/in/ahsan-rigu-b53621242/">
+                            <img src="Assets/in-logo.png" alt="linkedin" >
+                        </a>
+                    </li>
+                    <li class="socials list-item-inline">
+                        <a href="https://github.com/ahsan-rigu">
+                            <img src="Assets/github-logo.png" alt="github" >
+                        </a>
+                    </li>
+                </ul>
+            </span>     
+        </div>
     </header>
 
-    <section class="card-project">
-        <h2>section heading</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem perspiciatis tenetur aperiam, blanditiis non facilis eligendi? Possimus nemo consequuntur odio eveniet, nisi aliquam beatae, labore, laborum minima numquam necessitatibus eius.</p>
-        <a class = "link link-primary" href="https://getcssscan.com/css-box-shadow-examples>">see project</a>
-        <a class = "link link-secondary" href="https://replit.com/@ahsanrigu/MarkOne#index.js">see my code</a>
+    <section class="project-card">
+        <div class="project-card-body" style="background-image: linear-gradient(to bottom, black, rgba(0, 0, 0, 0.962),  rgba(0, 0, 0, 0.566)),url('/Assets/project-images/profit-loss.png');">
+            <h4>Profit or Loss</h4>
+            <p>Use this app to figure out how much have you have made on your investments.</p>
+        </div>
+        <div class="project-card-buttons">
+            <a class="button-primary button" href="https://profit-or-loss-ahsan.netlify.app">
+                view project
+            </a>
+            <a class="button-secondary button" href="https://github.com/ahsan-rigu/profit-or-loss-calculator-neog">
+                view code
+            </a>
+        </div>
+        <div class="projects-card-info">
+        </div>
     </section>
 
-    <section class="card-project">
-        <h2>Profit or Loss</h2>
-        <p>Use this app to figure out how much have you have made on your investments.</p>
-        <a class = "link link-primary" href="https://profit-or-loss-ahsan.netlify.app">see project</a>
-        <a class = "link link-secondary" href="https://github.com/ahsan-rigu/profit-or-loss-calculator-neog">see my code</a>
+    <section class="project-card">
+        <div class="project-card-body" style="background-image: linear-gradient(to bottom, black, rgba(0, 0, 0, 0.962),  rgba(0, 0, 0, 0.566)),url('/Assets/project-images/fun-with-triangles.png');">
+            <h4>Fun with Triangles</h4>
+            <p>A web app with different calculators relating to triangles ans a short quiz.</p>
+        </div>
+        <div class="project-card-buttons">
+            <a class="button-primary button" href="https://fun-with-triangles-ahsan.netlify.app">
+                view project
+            </a>
+            <a class="button-secondary button" href="https://github.com/ahsan-rigu/fun-with-triangles-neog">
+                view code
+            </a>
+        </div>
+        <div class="projects-card-info">
+        </div>
     </section>
 
-    <section class="card-project">
-        <h2>Fun with Triangles</h2>
-        <p>A web app with different calculators relating to triangles ans a short quiz.</p>
-        <a class = "link link-primary" href="https://fun-with-triangles-ahsan.netlify.app">see project</a>
-        <a class = "link link-secondary" href="https://github.com/ahsan-rigu/fun-with-triangles-neog">see my code</a>
+    <section class="project-card">
+        <div class="project-card-body" style="background-image: linear-gradient(to bottom, black, rgba(0, 0, 0, 0.962),  rgba(0, 0, 0, 0.566)),url('/Assets/project-images/lucky-birthday-cover.png');">
+            <h4>Lucky Birthday</h4>
+            <p>Ever wondered if your birthday is lucky, well lucky you now you can find that out with this web app.</p>
+        </div>
+        <div class="project-card-buttons">
+            <a class="button-primary button" href="https://lucky-birthday-ahsan.netlify.app">
+                view project
+            </a>
+            <a class="button-secondary button" href="https://github.com/ahsan-rigu/lucky-birthday-neog">
+                view code
+            </a>
+        </div>
+        <div class="projects-card-info">
+        </div>
     </section>
 
-    <section class="card-project">
-        <h2>Lucky Birthday.</h2>
-        <p>Ever wondered if your birthday is lucky, well lucky you now you can find that out with this web app.</p>
-        <a class = "link link-primary" href="https://lucky-birthday-ahsan.netlify.app">see project</a>
-        <a class = "link link-secondary" href="https://github.com/ahsan-rigu/lucky-birthday-neog">see my code</a>
+    <section class="project-card">
+        <div class="project-card-body" style="background-image: linear-gradient(to bottom, black, rgba(0, 0, 0, 0.962),  rgba(0, 0, 0, 0.566)),url('/Assets/project-images/cash-register.png');">
+            <h4>Cash Register App</h4>
+            <p>Use this web app to calculate change you have to give you shoppers.</p>
+        </div>
+        <div class="project-card-buttons">
+            <a class="button-primary button" href="https://cash-register-ahsan.netlify.app">
+                view project
+            </a>
+            <a class="button-secondary button" href="https://github.com/ahsan-rigu/cash-register-neog">
+                view code
+            </a>
+        </div>
+        <div class="projects-card-info">
+        </div>
     </section>
 
-    <section class="card-project">
-        <h2>Cash Register App</h2>
-        <p>Use this web app to calculate change you have to give you shoppers.</p>
-        <a class = "link link-primary" href="https://cash-register-ahsan.netlify.app">see project</a>
-        <a class = "link link-secondary" href="https://github.com/ahsan-rigu/cash-register-neog">see my code</a>
+    <section class="project-card">
+        <div class="project-card-body" style="background-image: linear-gradient(to bottom, black, rgba(0, 0, 0, 0.962),  rgba(0, 0, 0, 0.566)),url('/Assets/project-images/lotr-quiz-cover.png');">
+            <h4>My Favorite Movies</h4>
+            <p>A movies recommendation app classified by genres.</p>
+        </div>
+        <div class="project-card-buttons">
+            <a class="button-primary button" href="https://i9ps9b.csb.app/">
+                view project
+            </a>
+            <a class="button-secondary button" href="https://codesandbox.io/s/goodmovies-neog-i9ps9b?file=/src/App.js">
+                view code
+            </a>
+        </div>
+        <div class="projects-card-info">
+        </div>
     </section>
 
-    <section class="card-project">
-        <h2>My Favorite Movies</h2>
-        <p>A movies recommendation app classified by genres.</p>
-        <a class = "link link-primary" href="https://i9ps9b.csb.app/">see project</a>
-        <a class = "link link-secondary" href="https://codesandbox.io/s/goodmovies-neog-i9ps9b?file=/src/App.js">see my code</a>
+    <section class="project-card">
+        <div class="project-card-body" style="background-image: linear-gradient(to bottom, black, rgba(0, 0, 0, 0.962),  rgba(0, 0, 0, 0.566)),url('/Assets/project-images/flag-emoji-interpretor.png');">
+            <h4>Flag Emoji Interpretter</h4>
+            <p>So many flag emojis everywhere these days, how can one not have hard time recognising them. Use this web app to find out what a flag emoji is for.</p>
+        </div>
+        <div class="project-card-buttons">
+            <a class="button-primary button" href="https://y7l9hk.csb.app/">
+                view project
+            </a>
+            <a class="button-secondary button" href="https://codesandbox.io/s/flag-emoji-interpreter-neog-y7l9hk">
+                view code
+            </a>
+        </div>
+        <div class="projects-card-info">
+        </div>
     </section>
 
-    <section class="card-project">
-        <h2>Flag Emoji Interpretter</h2>
-        <p>So many flag emojis everywhere these days, how can one not have hard time recognising them. Use this web app to find out what a flag emoji is for.</p>
-        <a class = "link link-primary" href="https://y7l9hk.csb.app/">see project</a>
-        <a class = "link link-secondary" href="https://codesandbox.io/s/flag-emoji-interpreter-neog-y7l9hk">see my code</a>
+    <section class="project-card">
+        <div class="project-card-body" style="background-image: linear-gradient(to bottom, black, rgba(0, 0, 0, 0.962),  rgba(0, 0, 0, 0.566)),url('/Assets/project-images/elvish-translator.png');">
+            <h4>Elvish Translater</h4>
+            <p>Use this web app to translate english to high-elven.</p>
+        </div>
+        <div class="project-card-buttons">
+            <a class="button-primary button" href="https://elvish-translator-ahsan.netlify.app">
+                view project
+            </a>
+            <a class="button-secondary button" href="https://github.com/ahsan-rigu/elvis-translator-neog">
+                view code
+            </a>
+        </div>
+        <div class="projects-card-info">
+        </div>
     </section>
 
-    <section class="card-project">
-        <h2>Elvish Translater</h2>
-        <p>Use this web app to translate english to high-elven.</p>
-        <a class = "link link-primary" href="https://elvish-translator-ahsan.netlify.app">see project</a>
-        <a class = "link link-secondary" href="https://github.com/ahsan-rigu/elvis-translator-neog">see my code</a>
+    <section class="project-card">
+        <div class="project-card-body" style="background-image: linear-gradient(to bottom, black, rgba(0, 0, 0, 0.962),  rgba(0, 0, 0, 0.566)),url('/Assets/project-images/banana-speak.png');">
+            <h4>Banana Speak!</h4>
+            <p>Did you know the minions dont just talk gibberish, use this web app to translate english to whatever the minions speak.</p>
+        </div>
+        <div class="project-card-buttons">
+            <a class="button-primary button" href="https://banana-speak-ahsan.netlify.app">
+                view project
+            </a>
+            <a class="button-secondary button" href="https://github.com/ahsan-rigu/banana-speak">
+                view code
+            </a>
+        </div>
+        <div class="projects-card-info">
+        </div>
     </section>
 
-    <section class="card-project">
-        <h2>Banana Speak!</h2>
-        <p>Did you know the minions dont just talk gibberish, use this web app to translate english to whatever the minions speak.</p>
-        <a class = "link link-primary" href="https://banana-speak-ahsan.netlify.app">see project</a>
-        <a class = "link link-secondary" href="https://github.com/ahsan-rigu/banana-speak">see my code</a>
+    <section class="project-card">
+        <div class="project-card-body" style="background-image: linear-gradient(to bottom, black, rgba(0, 0, 0, 0.962),  rgba(0, 0, 0, 0.566)),url('/Assets/project-images/lotr-quiz-cover.png');">
+            <h4>Lord Of The Rings Quiz</h4>
+            <p>A muliple choice CLI quiz app about Lord Of The Rings</p>
+        </div>
+        <div class="project-card-buttons">
+            <a class="button-primary button" href="https://replit.com/@ahsanrigu/markTwo?v=1">
+                view project
+            </a>
+            <a class="button-secondary button" href="https://replit.com/@ahsanrigu/markTwo#index.js">
+                view code
+            </a>
+        </div>
+        <div class="projects-card-info">
+        </div>
     </section>
 
-    <section class="card-project">
-        <h2>Lord Of The Rings Quiz</h2>
-        <p>A muliple choice CLI quiz app about Lord Of The Rings</p>
-        <a class = "link link-primary" href="https://replit.com/@ahsanrigu/markTwo?v=1">see project</a>
-        <a class = "link link-secondary" href="https://replit.com/@ahsanrigu/markTwo#index.js">see my code</a>
+    <section class="project-card">
+        <div class="project-card-body" style="background-image: linear-gradient(to bottom, black, rgba(0, 0, 0, 0.962),  rgba(0, 0, 0, 0.566)),url('/Assets/project-images/who-knows.png');">
+            <h4>Do you know me?</h4>
+            <p>DA CLI app that test how much you know about</p>
+        </div>
+        <div class="project-card-buttons">
+            <a class="button-primary button" href="https://replit.com/@ahsanrigu/MarkOne?v=1">
+                view project
+            </a>
+            <a class="button-secondary button" href="https://replit.com/@ahsanrigu/MarkOne#index.js">
+                view code
+            </a>
+        </div>
+        <div class="projects-card-info">
+        </div>
     </section>
 
-    <section class="card-project">
-        <h2>Do you know me?</h2>
-        <p>A CLI app that test how much you know about</p>
-        <a class = "link link-primary" href="https://replit.com/@ahsanrigu/MarkOne?v=1">see project</a>
-        <a class = "link link-secondary" href="https://replit.com/@ahsanrigu/MarkOne#index.js">see my code</a>
-    </section>
-
-    
-    <footer class="footer">
-        <a href="https://twitter.com/ahsan_coding"><img src="Assets/twitter-logo.png" alt="twitter" style="width:42px;height:42px;"></a>   
-        <a href="https://www.linkedin.com/in/ahsan-rigu-b53621242/"><img src="Assets/in-logo.png" alt="linkedin" style="width:42px;height:42px;"></a>   
-        <a href="https://github.com/ahsan-rigu"><img src="Assets/github-logo.png" alt="github" style="width:42px;height:42px;"></a> 
-     </footer>
-
-    
 </body>
 </html>
