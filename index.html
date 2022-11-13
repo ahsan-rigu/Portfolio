@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header class="top-bar container">
+    <div id="top-scroll" class="scroll-assist"></div>
+    <header class="top-bar container" id="top-scroll">
         <div class="container">
             <span class="brand button">ahsan rigu | portfolio</span>
             <span class="social-list">
@@ -36,25 +37,25 @@
     <nav class="nav-bar">
         <ul class="list-no-bullets">
             <li class="nav-pill-upwards nav-pill">
-                scroll to top -->
+                <a href="#top-scroll">scroll to top --></a>
             </li>                   
             <li class="nav-pill">
-                javascript
+                <a href="#javascript-scroll">javascript</a>
             </li>
             <li class="nav-pill">
-                blogs
+                <a href="#blogs-scroll">blogs</a>
             </li>
-            <li class="nav-pill">
+            <!-- <li class="nav-pill">
                 illustrations
-            </li>
+            </li> -->
             <li class="nav-pill-downwards nav-pill">
-                <-- scroll to end
+                <a href="#footer-scroll"><-- scroll to end</a>
             </li>
         </ul>
 
 
     </nav>
-    <div class="hero">
+    <div class="hero" style="background-image: url('/Assets/background-hero.png');">
         <div class="hero-info card">
             <h2 class="name">Ahsan Rigu</h2>
             <h3>technologies:</h3>
@@ -100,11 +101,12 @@
     </div>
     
     <div class="project-overview">
+        <div  id="javascript-scroll" class="scroll-assist"></div>
         <div class="javascript-projects">
-            <h2 class="projects-heading">javascript projects <span class="view-more">view more...</span></h2>
+            <h2 class="projects-heading">javascript projects <a class="view-more" href="/projects.html">view more...</a></h2>
             
             <section class="project-card">
-                <div class="project-card-body" style="background-image: linear-gradient(to bottom, black, rgba(0, 0, 0, 0.962),  rgba(0, 0, 0, 0.566)),url('/Assets/project-images/lotr-quiz-cover.png');">
+                <div class="project-card-body" style="background-image: linear-gradient(to bottom, rgb(251, 251, 251), rgba(255, 255, 255, 0.8),  rgba(255, 255, 255, 0.151)),url('/Assets/project-images/lotr-quiz-cover.png');">
                     <h4>Lord Of The Rings Quiz</h4>
                     <p>A muliple choice CLI quiz app about Lord Of The Rings</p>
                 </div>
@@ -120,7 +122,7 @@
             </section>
 
             <section class="project-card">
-                <div class="project-card-body" style="background-image: linear-gradient(to bottom, black, rgba(0, 0, 0, 0.962),  rgba(0, 0, 0, 0.566)),url('/Assets/project-images/lucky-birthday-cover.png');">
+                <div class="project-card-body" style="background-image: linear-gradient(to bottom, rgb(251, 251, 251), rgba(255, 255, 255, 0.8),  rgba(255, 255, 255, 0.151)),url('/Assets/project-images/lucky-birthday-cover.png');">
                     <h4>Lucky Birthday</h4>
                     <p>Ever wondered if your birthday is lucky, well lucky you now you can find that out with this web app.</p>
                 </div>
@@ -135,7 +137,7 @@
             </section>
 
             <section class="project-card">
-                <div class="project-card-body" style="background-image: linear-gradient(to bottom, black, rgba(0, 0, 0, 0.962),  rgba(0, 0, 0, 0.566)),url('/Assets/project-images/flag-emoji-interpretor.png');">
+                <div class="project-card-body" style="background-image: linear-gradient(to bottom, rgb(251, 251, 251), rgba(255, 255, 255, 0.8),  rgba(255, 255, 255, 0.151)),url('/Assets/project-images/flag-emoji-interpretor.png');">
                     <h4>Flag Emoji Interpretter</h4>
                     <p>So many flag emojis everywhere these days, how can one not have hard time recognising them. Use this web app to find out what a flag emoji is for.</p>
                 </div>
@@ -150,7 +152,7 @@
             </section>
 
             <section class="project-card">
-                <div class="project-card-body" style="background-image: linear-gradient(to bottom, black, rgba(0, 0, 0, 0.962),  rgba(0, 0, 0, 0.566)),url('/Assets/project-images/cash-register.png');">
+                <div class="project-card-body" style="background-image: linear-gradient(to bottom, rgb(251, 251, 251), rgba(255, 255, 255, 0.8),  rgba(255, 255, 255, 0.151)),url('/Assets/project-images/cash-register.png');">
                     <h4>Cash Register App</h4>
                     <p>Use this web app to calculate change you have to give you shoppers.</p>
                 </div>
@@ -165,51 +167,52 @@
             </section>
 
         </div>
+        <div  id="blogs-scroll" class="scroll-assist"></div>
         <div class="blog-projects">
-            <h2 class="projects-heading">blogs<span class="view-more">view more...</span></h2>
+            <h2 class="projects-heading">blogs</h2>
             
             <section class="blogs-card">
-                <div class="blogs-card-body" style="background-image: linear-gradient(to bottom, black, rgba(0, 0, 0, 0.962),  rgba(0, 0, 0, 0.566)),url('/Assets/project-images/cash-register.png');">
-                    <h4>Cash Register App</h4>
-                    <p>Use this web app to calculate change you have to give you shoppers.</p>
+                <div class="blogs-card-body" style="background-image: linear-gradient(to bottom, rgb(251, 251, 251), rgba(255, 255, 255, 0.8),  rgba(255, 255, 255, 0.15)),url('/Assets/project-images/blog-1.jpg');">
+                    <h4>Dummy blog </h4>
+                    <p>This is a dummy blog, and this is its preview text, clicking read more will take you to a random blog about chickens.</p>
                 </div>
                 <div class="blogs-card-buttons">
-                    <a class="button-secondary button" href="https://github.com/ahsan-rigu/cash-register-neog">
+                    <a class="button-secondary button" href="https://www.tillysnest.com/2018/03/salmonella-backyard-chickens/">
                         read more...
                     </a>
                 </div>
             </section>
             
             <section class="blogs-card">
-                <div class="blogs-card-body" style="background-image: linear-gradient(to bottom, black, rgba(0, 0, 0, 0.962),  rgba(0, 0, 0, 0.566)),url('/Assets/project-images/cash-register.png');">
-                    <h4>Cash Register App</h4>
-                    <p>Use this web app to calculate change you have to give you shoppers.</p>
+                <div class="blogs-card-body" style="background-image: linear-gradient(to bottom, rgb(251, 251, 251), rgba(255, 255, 255, 0.8),  rgba(255, 255, 255, 0.15)),url('/Assets/project-images/blog-2.jpg');">
+                    <h4>Dummy blog </h4>
+                    <p>This is a dummy blog, and this is its preview text, clicking read more will take you to a random blog about chickens.</p>
                 </div>
                 <div class="blogs-card-buttons">
-                    <a class="button-secondary button" href="https://github.com/ahsan-rigu/cash-register-neog">
+                    <a class="button-secondary button" href="https://www.tillysnest.com/2018/03/salmonella-backyard-chickens/">
                         read more...
                     </a>
                 </div>
             </section>
             <section class="blogs-card">
-                <div class="blogs-card-body" style="background-image: linear-gradient(to bottom, black, rgba(0, 0, 0, 0.962),  rgba(0, 0, 0, 0.566)),url('/Assets/project-images/cash-register.png');">
-                    <h4>Cash Register App</h4>
-                    <p>Use this web app to calculate change you have to give you shoppers.</p>
+                <div class="blogs-card-body" style="background-image: linear-gradient(to bottom, rgb(251, 251, 251), rgba(255, 255, 255, 0.8),  rgba(255, 255, 255, 0.15)),url('/Assets/project-images/blog-3.jpg');">
+                    <h4>Dummy blog </h4>
+                    <p>This is a dummy blog, and this is its preview text, clicking read more will take you to a random blog about chickens.</p>
                 </div>
                 <div class="blogs-card-buttons">
-                    <a class="button-secondary button" href="https://github.com/ahsan-rigu/cash-register-neog">
+                    <a class="button-secondary button" href="https://www.tillysnest.com/2018/03/salmonella-backyard-chickens/">
                         read more...
                     </a>
                 </div>
             </section>
 
             <section class="blogs-card">
-                <div class="blogs-card-body" style="background-image: linear-gradient(to bottom, black, rgba(0, 0, 0, 0.962),  rgba(0, 0, 0, 0.566)),url('/Assets/project-images/cash-register.png');">
-                    <h4>Cash Register App</h4>
-                    <p>Use this web app to calculate change you have to give you shoppers.</p>
+                <div class="blogs-card-body" style="background-image: linear-gradient(to bottom, rgb(251, 251, 251), rgba(255, 255, 255, 0.8),  rgba(255, 255, 255, 0.151)),url('/Assets/project-images/blog-4.jpg');">
+                    <h4>Dummy blog </h4>
+                    <p>This is a dummy blog, and this is its preview text, clicking read more will take you to a random blog about chickens.</p>
                 </div>
                 <div class="blogs-card-buttons">
-                    <a class="button-secondary button" href="https://github.com/ahsan-rigu/cash-register-neog">
+                    <a class="button-secondary button" href="https://www.tillysnest.com/2018/03/salmonella-backyard-chickens/">
                         read more...
                     </a>
                 </div>
@@ -222,7 +225,7 @@
         </div> -->
 
     </div>
-    <footer class="footer">
+    <footer class="footer" id="footer-scroll">
            
     </footer>
 </body>
