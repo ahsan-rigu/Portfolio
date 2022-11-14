@@ -28,7 +28,6 @@ body{
     top: 0px;
     box-shadow: black 0rem 1rem 1rem;
     z-index: 2;
-
 }
 
 .top-bar .container{
@@ -46,12 +45,10 @@ body{
     padding:1.5rem 1rem ;
     transition: all .5s;
     transition-timing-function: ease-in;
-    
 }
 
 .brand:hover{
     transform: scale(110%);
-
 }
 
 .social-list{
@@ -157,7 +154,6 @@ body{
 
 .hero-info:hover{
     box-shadow: rgba(0, 221, 255, 0.1) 0px 4px 16px, rgba(0, 221, 255, 0.1) 0px 8px 24px, rgba(0, 208, 255, 0.1) 0px 16px 56px;
-    /* border: .1rem solid var(--color-secondary); */
     background-color: var(--color-background);
 }
 
