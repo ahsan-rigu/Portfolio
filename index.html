@@ -4,43 +4,229 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | AhsanRigu</title>
+    <title>ahsan rigu | portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav class="navigation container">
-        <span class="brand">Ahsan Rigu | portfolio</span>
-        <span class="nav-pills">
-            <ul class="list-no-bullets">
-                <li class="list-item-inline active-nav-pills"><a class = "link" href="index.html">home</a></li>
-                <li class="list-item-inline"><a class = "link" href="projects.html">projects</a></li>
-                <li class="list-item-inline"><a class = "link" href="blogs.html">blogs</a></li>
-            </ul>
-        </span>    
-    </nav>
-    <header class = "hero">
-        <img class="img-hero" src="Assets/img-hero.jpg">
-        <h1 class="heading-hero">Ahsan Rigu |<span class="text-primary"> web developer</span></h1>
-        <p class="text-hero">Familiar with HTML5, CSS3, Git, JavaScript, NodeJS, ReactJS, Figma</p>
+    <div id="top-scroll" class="scroll-assist"></div>
+    <header class="top-bar container" id="top-scroll">
+        <div class="container">
+            <span class="brand button">ahsan rigu | portfolio</span>
+            <span class="social-list">
+                <ul class="list-no-bullets">
+                    <li class="socials list-item-inline">
+                        <a href="https://twitter.com/ahsan_coding">
+                            <img src="Assets/twitter-logo.png" alt="twitter" >
+                        </a>
+                    </li>
+                    <li class="socials list-item-inline">
+                        <a href="https://www.linkedin.com/in/ahsan-rigu-b53621242/">
+                            <img src="Assets/in-logo.png" alt="linkedin" >
+                        </a>
+                    </li>
+                    <li class="socials list-item-inline">
+                        <a href="https://github.com/ahsan-rigu">
+                            <img src="Assets/github-logo.png" alt="github" >
+                        </a>
+                    </li>
+                </ul>
+            </span>     
+        </div>
     </header>
 
-    <section class="card-section">
-        <h2>My Projects</h2>
-        <p>A variety of projects I created as a part of neog.cam level0</p>
-        <a class = "link link-primary" href="/projects.html">view projects</a>
-    </section>
-    <section class="card-section">
-        <h2>My Blogs</h2>
-        <p>Blogs about techhnologies, with an emphasis on coding and design </p>
-        <a class = "link link-secondary" href="/blogs.html">read blogs</a>
-    </section>
-    
-    <footer class="footer">
-        <a href="https://twitter.com/ahsan_coding"><img src="Assets/twitter-logo.png" alt="twitter" style="width:42px;height:42px;"></a>   
-        <a href="https://www.linkedin.com/in/ahsan-rigu-b53621242/"><img src="Assets/in-logo.png" alt="linkedin" style="width:42px;height:42px;"></a>   
-        <a href="https://github.com/ahsan-rigu"><img src="Assets/github-logo.png" alt="github" style="width:42px;height:42px;"></a> 
-     </footer>
+    <nav class="nav-bar">
+        <ul class="list-no-bullets">
+            <li class="nav-pill-upwards nav-pill">
+                <a href="#top-scroll">scroll to top --></a>
+            </li>                   
+            <li class="nav-pill">
+                <a href="#javascript-scroll">javascript</a>
+            </li>
+            <li class="nav-pill">
+                <a href="#blogs-scroll">blogs</a>
+            </li>
+            <!-- <li class="nav-pill">
+                illustrations
+            </li> -->
+            <li class="nav-pill-downwards nav-pill">
+                <a href="#footer-scroll"><-- scroll to end</a>
+            </li>
+        </ul>
 
+
+    </nav>
+    <div class="hero" style="background-image: url('/Assets/background-hero.png');">
+        <div class="hero-info card">
+            <h2 class="name">Ahsan Rigu</h2>
+            <h3>technologies:</h3>
+            <div class="tech-list">
+                javascript:
+                <span>
+                    <ul class="list-no-bullets">
+                        <li class="list-item-inline tech-pill">HTML5</li>
+                        <li class="list-item-inline tech-pill">javascript</li>
+                        <li class="list-item-inline tech-pill">git</li>
+                        <li class="list-item-inline tech-pill">CSS3</li>
+                        <li class="list-item-inline tech-pill">nodeJS</li>
+                        <li class="list-item-inline tech-pill">reactJS</li>
+                    </ul>
+                </span>
+            </div>
+            <div class="tech-list">
+                ui/ux:
+                <span>
+                    <ul class="list-no-bullets">
+                        <li class="list-item-inline tech-pill">figma</li>
+                    </ul>
+                </span>
+            </div>
+            <div class="tech-list">
+                illustrations:
+                <span>
+                    <ul class="list-no-bullets">
+                        <li class="list-item-inline tech-pill">adobe illustrator</li>
+                        <li class="list-item-inline tech-pill">adobe photoshop</li>
+                    </ul>
+                </span>
+            </div>
+            <button class="button button-secondary">
+                ABOUT ME
+            </button>
+            
+        
+        </div>
+        <div class="hero-graphics">
+
+        </div>
+    </div>
     
+    <div class="project-overview">
+        <div  id="javascript-scroll" class="scroll-assist"></div>
+        <div class="javascript-projects">
+            <h2 class="projects-heading">javascript projects <a class="view-more" href="/projects.html">view more...</a></h2>
+            
+            <section class="project-card">
+                <div class="project-card-body" style="background-image: linear-gradient(to bottom, rgb(251, 251, 251), rgba(255, 255, 255, 0.8),  rgba(255, 255, 255, 0.151)),url('/Assets/project-images/lotr-quiz-cover.png');">
+                    <h4>Lord Of The Rings Quiz</h4>
+                    <p>A muliple choice CLI quiz app about Lord Of The Rings</p>
+                </div>
+                <div class="project-card-buttons">
+                    <a class="button-primary button" href="https://replit.com/@ahsanrigu/markTwo?v=1">
+                        view project
+                    </a>
+                    <a class="button-secondary button" href="https://replit.com/@ahsanrigu/markTwo#index.js">
+                        view code
+                    </a>
+
+                </div>
+            </section>
+
+            <section class="project-card">
+                <div class="project-card-body" style="background-image: linear-gradient(to bottom, rgb(251, 251, 251), rgba(255, 255, 255, 0.8),  rgba(255, 255, 255, 0.151)),url('/Assets/project-images/lucky-birthday-cover.png');">
+                    <h4>Lucky Birthday</h4>
+                    <p>Ever wondered if your birthday is lucky, well lucky you now you can find that out with this web app.</p>
+                </div>
+                <div class="project-card-buttons">
+                    <a class="button-primary button" href="https://lucky-birthday-ahsan.netlify.app">
+                        view project
+                    </a>
+                    <a class="button-secondary button" href="https://github.com/ahsan-rigu/lucky-birthday-neog">
+                        view code
+                    </a>
+                </div>
+            </section>
+
+            <section class="project-card">
+                <div class="project-card-body" style="background-image: linear-gradient(to bottom, rgb(251, 251, 251), rgba(255, 255, 255, 0.8),  rgba(255, 255, 255, 0.151)),url('/Assets/project-images/flag-emoji-interpretor.png');">
+                    <h4>Flag Emoji Interpretter</h4>
+                    <p>So many flag emojis everywhere these days, how can one not have hard time recognising them. Use this web app to find out what a flag emoji is for.</p>
+                </div>
+                <div class="project-card-buttons">
+                    <a class="button-primary button" href="https://y7l9hk.csb.app/">
+                        view project
+                    </a>
+                    <a class="button-secondary button" href="https://codesandbox.io/s/flag-emoji-interpreter-neog-y7l9hk">
+                        view code
+                    </a>
+                </div>
+            </section>
+
+            <section class="project-card">
+                <div class="project-card-body" style="background-image: linear-gradient(to bottom, rgb(251, 251, 251), rgba(255, 255, 255, 0.8),  rgba(255, 255, 255, 0.151)),url('/Assets/project-images/cash-register.png');">
+                    <h4>Cash Register App</h4>
+                    <p>Use this web app to calculate change you have to give you shoppers.</p>
+                </div>
+                <div class="project-card-buttons">
+                    <a class="button-primary button" href="https://cash-register-ahsan.netlify.app">
+                        view project
+                    </a>
+                    <a class="button-secondary button" href="https://github.com/ahsan-rigu/cash-register-neog">
+                        view code
+                    </a>
+                </div>
+            </section>
+
+        </div>
+        <div  id="blogs-scroll" class="scroll-assist"></div>
+        <div class="blog-projects">
+            <h2 class="projects-heading">blogs</h2>
+            
+            <section class="blogs-card">
+                <div class="blogs-card-body" style="background-image: linear-gradient(to bottom, rgb(251, 251, 251), rgba(255, 255, 255, 0.8),  rgba(255, 255, 255, 0.15)),url('/Assets/project-images/blog-1.jpg');">
+                    <h4>Dummy blog </h4>
+                    <p>This is a dummy blog, and this is its preview text, clicking read more will take you to a random blog about chickens.</p>
+                </div>
+                <div class="blogs-card-buttons">
+                    <a class="button-secondary button" href="https://www.tillysnest.com/2018/03/salmonella-backyard-chickens/">
+                        read more...
+                    </a>
+                </div>
+            </section>
+            
+            <section class="blogs-card">
+                <div class="blogs-card-body" style="background-image: linear-gradient(to bottom, rgb(251, 251, 251), rgba(255, 255, 255, 0.8),  rgba(255, 255, 255, 0.15)),url('/Assets/project-images/blog-2.jpg');">
+                    <h4>Dummy blog </h4>
+                    <p>This is a dummy blog, and this is its preview text, clicking read more will take you to a random blog about chickens.</p>
+                </div>
+                <div class="blogs-card-buttons">
+                    <a class="button-secondary button" href="https://www.tillysnest.com/2018/03/salmonella-backyard-chickens/">
+                        read more...
+                    </a>
+                </div>
+            </section>
+            <section class="blogs-card">
+                <div class="blogs-card-body" style="background-image: linear-gradient(to bottom, rgb(251, 251, 251), rgba(255, 255, 255, 0.8),  rgba(255, 255, 255, 0.15)),url('/Assets/project-images/blog-3.jpg');">
+                    <h4>Dummy blog </h4>
+                    <p>This is a dummy blog, and this is its preview text, clicking read more will take you to a random blog about chickens.</p>
+                </div>
+                <div class="blogs-card-buttons">
+                    <a class="button-secondary button" href="https://www.tillysnest.com/2018/03/salmonella-backyard-chickens/">
+                        read more...
+                    </a>
+                </div>
+            </section>
+
+            <section class="blogs-card">
+                <div class="blogs-card-body" style="background-image: linear-gradient(to bottom, rgb(251, 251, 251), rgba(255, 255, 255, 0.8),  rgba(255, 255, 255, 0.151)),url('/Assets/project-images/blog-4.jpg');">
+                    <h4>Dummy blog </h4>
+                    <p>This is a dummy blog, and this is its preview text, clicking read more will take you to a random blog about chickens.</p>
+                </div>
+                <div class="blogs-card-buttons">
+                    <a class="button-secondary button" href="https://www.tillysnest.com/2018/03/salmonella-backyard-chickens/">
+                        read more...
+                    </a>
+                </div>
+            </section>
+        </div>
+        
+        <!-- <div class="illustration-projects">
+            <h2 class="projects-heading">illustrations</h2>
+            <button class="button-secondary">VIEW MORE</button>
+        </div> -->
+
+    </div>
+    <footer class="footer" id="footer-scroll">
+           
+    </footer>
 </body>
 </html>
